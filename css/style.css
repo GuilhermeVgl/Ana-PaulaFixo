@@ -67,6 +67,7 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    background-attachment: fixed;
     width: 100%;
     height: 100vh;
     position: relative;
@@ -230,6 +231,7 @@ section {
 
 #skills {
     background: #151515 url(../images/fundo2.png) no-repeat center center;
+    /* background-attachment: fixed; */
     height: auto;
 }
 
