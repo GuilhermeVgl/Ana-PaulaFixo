@@ -1,7 +1,7 @@
 /*
  *  Numeração das classes e divisões de conteúdo:
 
- *  01. Global Styles
+ *  01. Basic Styles
  *  02. Intro
  *  03. Social Icons
  *  04. Icon Fonts
@@ -63,7 +63,7 @@
 /* 02. Intro */
 
  .section-image {
- 	background: #151515 url(../images/cg.png) no-repeat center center;
+ 	background: url(../images/cg.png) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -235,6 +235,29 @@ section {
     height: auto;
 }
 
+#lawyer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lawyer h3{
+    font-size: 20px;
+    padding-left: 9rem;
+}
+
+#lawyer a {
+    color: #d4a250;
+    font-size: 50px;
+}
+
+#lawyer span {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    padding: 0 10px;
+    font-weight: 100;
+}
+
 
 /* 05. Footer */
 
@@ -364,7 +387,7 @@ footer p {
     }
 
     #skills {
-        background: #151515 url(..images/fundo2) no-repeat center center;
+        background: #151515 no-repeat center center;
         background-position: top center;
 
     }
