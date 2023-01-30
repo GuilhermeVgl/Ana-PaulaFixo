@@ -50,7 +50,6 @@ h1, h2, h3, h4 {
 }
 
 header {
-  background: #1abc9c;
   padding: 10px;
   -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
@@ -58,7 +57,6 @@ header {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
 }
 header .logo {
-  color: #1abc9c;
   float: left;
   font-family: "Dosis", arial, tahoma, verdana;
   font-size: 22px;
