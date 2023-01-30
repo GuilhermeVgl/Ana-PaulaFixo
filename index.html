@@ -31,7 +31,7 @@
             <div class="intro">
                 <div class="row">
                     <div class="col-md-12">
-                      <img src="images/Logo2.png" alt="">
+                      <img src="images/Logo.png" alt="">
                     </div>
                     <!-- /col-md-12 -->
                 </div>
@@ -79,7 +79,7 @@
                     <p class="lead">                Ana Paula Vieira está atuando no mercado e ajudando as pessoas através da advocacia desde 2019. Hoje com quase 5 anos de experiência
                       Ana Paula já carrega uma bagagem que a faz ser uma das advogadas mais requisitadas nas suas áreas. Primeiramente começou atuando
                       apenas no direito familiar, mas hoje já expandiu para outras áreas do direito, como Civil, Direito do consumidor e direito Imobiliário.
-                      Ana Paula se formou em 2019 e passou na Ordem dos advogados do Brasil (OAB) mesmo antes de encerrar seu curso de Direito.</p>
+                      Ana Paula se formou em 2019 e passou na Ordem dos advogados do Brasil (OAB) antes mesmo de se formar em seu curso de Direito.</p>
                 </div><!-- /col-md-6 -->
             </div><!-- / row -->
         </div><!-- /container -->
@@ -203,10 +203,38 @@
     <section id="lawyer">
         <div class="content">
             <h3>Está precisando de uma advogada?</h3>
-            <h1><a href="https://api.whatsapp.com/send?phone=5567984012745&text=Ol%C3%A1,%20Ana!%20Vim%20pelo%20seu%20site.%20Gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os!!!">          
+            <h1><a id="solicite" href="https://api.whatsapp.com/send?phone=5567984012745&text=Ol%C3%A1,%20Ana!%20Vim%20pelo%20seu%20site.%20Gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os!!!">          
             Solicite uma consultoria </a></h1>
         </div>
     </section>
+
+    <hr class="consultoria">
+
+    <div class="location">
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3738.3875954166065!2d-54.57679798445993!3d-20.449267759947972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e8e5c646c837%3A0xd61b10556a2d8691!2sOrdem%20dos%20Advogados%20do%20Brasil%20Seccional%20Campo%20Grande!5e0!3m2!1spt-BR!2sbr!4v1675098038709!5m2!1spt-BR!2sbr" 
+        width="500" 
+        height="400" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+        <div class="container5">
+            <h3>(Atendimento somente com horário agendado)</h3>
+
+            <h2 id="profissional"> Para contatos profissionais: </h2>
+            <form class="form" action="https://api.staticforms.xyz/submit" method="post">
+                <input type="text" name="name" placeholder="Seu nome">
+                <input type="text" name="email" placeholder="Seu endereço de Email" />
+                <textarea name="message" placeholder="Mensagem"></textarea>
+                <input type="text" name="honeypot" style="display:none">
+                <input type="hidden" name="accessKey" value="41f168ea-d85b-49ee-a420-0719a7f23402">
+                <input type="hidden" name="redirectTo" value="index.html">
+                <button type="submit"> Enviar </button>
+            </form>
+        </div>
+    </div> <!-- location -->
 
     <footer class="footer">
         <div class="container">
@@ -218,7 +246,7 @@
                     target="_blank" style="color: #d4a250;"><i class="fa fa-copyright"></i>
                     MageVgl</a></p>
                 </div>
-
+    
 
                 <div class="col-md-4 text-center">
                     <p><img src="images/logo.png" alt="LogoMarca"></p>

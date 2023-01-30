@@ -232,6 +232,8 @@ section {
 #lawyer a {
     color: #d4a250;
     font-size: 50px;
+    display: inline-block;
+    position: relative;
 }
 
 #lawyer span {
@@ -240,6 +242,24 @@ section {
     padding: 0 10px;
     font-weight: 100;
 }
+
+#solicite:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #d4a250;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  #solicite:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 
 
 /* 05. Footer */
@@ -328,6 +348,35 @@ footer p {
 
         /* /Mouse Icon */
 
+        /* map */
+
+        .location {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .location h3{
+            padding-top: 1.5em;
+            padding-left: 5rem;
+            font-size: small;
+        }
+        
+        .location h2{
+            color: #e6b362;
+        }
+
+        #map {
+            margin: 5rem 5rem;
+            filter: blur(3px);
+            filter: grayscale(1);
+            filter: saturate(2.2);
+        }
+
+        .consultoria  hr {
+            border-top: 5px solid #e6b362;
+            width: 80px;
+         }
  
 /* Media Queries */
 
@@ -387,4 +436,68 @@ footer p {
 
 }
 
-
+.form {
+    width: 100%;
+    max-width: 32rem;
+    font-size: 1.125rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form label,
+  .form input,
+  .form textarea,
+  .form button {
+    display: block;
+    width: 100%;
+  }
+  
+  .form label {
+    color: #dff6ff;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form input,
+  .form textarea {
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border-color, box-shadow 0.2s;
+  }
+  
+  .form textarea {
+    min-height: 13rem;
+    resize: vertical;
+  }
+  
+  .form input:hover,
+  .form input:focus,
+  .form textarea:hover,
+  .form textarea:focus {
+    outline: none;
+    border-color: #d4a250;
+    box-shadow: 0 0 0 3px #d4a250;
+  }
+  
+  .form button {
+    display: block;
+    padding: 1rem;
+    background: #d4a250;
+    color: black;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .form button:hover,
+  .form button:focus {
+    outline: none;
+    background: #d4a250;
+  }
+  

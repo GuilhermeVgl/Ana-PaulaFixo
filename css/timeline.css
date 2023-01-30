@@ -150,7 +150,7 @@ header .social .btn {
 }
 #timeline .timeline-item .timeline-content h2 {
   padding: 15px;
-  background: #be7c12;
+  background: #e49619;
   color: #fff;
   margin: -20px -20px 0 -20px;
   font-weight: 300;
@@ -173,7 +173,7 @@ header .social .btn {
   height: 0;
   border-top: 7px solid transparent;
   border-bottom: 7px solid transparent;
-  border-left: 7px solid #be7c12;
+  border-left: 7px solid #e49619;
 }
 #timeline .timeline-item .timeline-content.right {
   float: right;
@@ -183,7 +183,7 @@ header .social .btn {
   right: 45%;
   left: inherit;
   border-left: 0;
-  border-right: 7px solid #be7c12;
+  border-right: 7px solid #e49619;
 }
 
 
@@ -204,7 +204,7 @@ header .social .btn {
     left: 10%;
     margin-left: -6px;
     border-left: 0;
-    border-right: 7px solid #be7c12;
+    border-right: 7px solid #e49619;
   }
   #timeline .timeline-item .timeline-icon {
     left: 0;
