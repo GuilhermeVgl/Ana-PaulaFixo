@@ -225,8 +225,8 @@ section {
 }
 
 #lawyer h3{
-    font-size: 20px;
-    padding-left: 9rem;
+    font-size: 25px;
+    padding-left: 19rem;
 }
 
 #lawyer a {
@@ -253,7 +253,7 @@ section {
     left: 0;
     background-color: #d4a250;
     transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+    transition: transform 0.5s ease-out;
   }
 
   #solicite:hover:after {
@@ -358,12 +358,15 @@ footer p {
 
         .location h3{
             padding-top: 1.5em;
-            padding-left: 5rem;
             font-size: small;
         }
         
         .location h2{
             color: #e6b362;
+        }
+
+        .container5 {
+            justify-content: justify;
         }
 
         #map {
